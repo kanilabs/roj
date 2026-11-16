@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Bûyerên Kurdî
 X-WR-CALNAME:Bûyerên Kurdî
-X-WR-CALDESC:Bûyerên Kurdî from Roj\, https://0xdolan.github.io/roj/. Ei
- d dates follow the arithmetic Hijri calendar and can differ by a day or tw
- o from the sighting of the moon.
+X-WR-CALDESC:Bûyerên Kurdî from Roj\, https://kanilabs.github.io/roj/. E
+ id dates follow the arithmetic Hijri calendar and can differ by a day or t
+ wo from the sighting of the moon.
 REFRESH-INTERVAL;VALUE=DURATION:P1W
 X-PUBLISHED-TTL:P1W
 BEGIN:VEVENT

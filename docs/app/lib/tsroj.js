@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-// Vendored from @0xdolan/tsroj v1.0.6 (dist/index.mjs): https://github.com/0xdolan/tsroj
+// Vendored from @0xdolan/tsroj v1.0.6 (dist/index.mjs): https://github.com/kanilabs/tsroj
 // Do not edit by hand: run `make vendor` to refresh.
 
 // src/exceptions.ts

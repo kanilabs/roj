@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: 0xdolan <0xdolan@users.noreply.github.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.0
-Homepage: https://github.com/0xdolan/roj
-Vcs-Browser: https://github.com/0xdolan/roj
-Vcs-Git: https://github.com/0xdolan/roj.git
+Homepage: https://github.com/kanilabs/roj
+Vcs-Browser: https://github.com/kanilabs/roj
+Vcs-Git: https://github.com/kanilabs/roj.git
 Rules-Requires-Root: no
 
 Package: roj

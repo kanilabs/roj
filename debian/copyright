@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: roj
-Upstream-Contact: https://github.com/0xdolan/roj/issues
-Source: https://github.com/0xdolan/roj
+Upstream-Contact: https://github.com/kanilabs/roj/issues
+Source: https://github.com/kanilabs/roj
 
 Files: *
 Copyright: 2026 0xdolan

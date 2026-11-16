@@ -7,13 +7,13 @@
 
 ڕۆژ · Roj · *sun* and *day* in Kurdish
 
-[![CI](https://github.com/0xdolan/roj/actions/workflows/ci.yml/badge.svg)](https://github.com/0xdolan/roj/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/0xdolan/roj)](https://github.com/0xdolan/roj/releases/latest)
+[![CI](https://github.com/kanilabs/roj/actions/workflows/ci.yml/badge.svg)](https://github.com/kanilabs/roj/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/0xdolan/roj)](https://github.com/kanilabs/roj/releases/latest)
 [![GNOME Extensions](https://img.shields.io/badge/GNOME%20Extensions-Roj-4a86cf?logo=gnome&logoColor=white)](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/)
 [![GNOME Shell 45 to 50](https://img.shields.io/badge/GNOME%20Shell-45%20to%2050-4a86cf)](#install)
 [![License: GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
 
-[Website](https://0xdolan.github.io/roj/) · [GNOME Extensions](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/) · [Live calendar](https://0xdolan.github.io/roj/calendar/) · [Guide](https://0xdolan.github.io/roj/guide.html) · [The name and the logo](docs/STORY.md) · [Releases](https://github.com/0xdolan/roj/releases) · [Changelog](CHANGELOG.md)
+[Website](https://kanilabs.github.io/roj/) · [GNOME Extensions](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/) · [Live calendar](https://kanilabs.github.io/roj/calendar/) · [Guide](https://kanilabs.github.io/roj/guide.html) · [The name and the logo](docs/STORY.md) · [Releases](https://github.com/kanilabs/roj/releases) · [Changelog](CHANGELOG.md)
 
 <img src="docs/images/marketing/banner.png" alt="Roj in Sorani and Kurmanji" width="100%">
 </div>
@@ -27,7 +27,7 @@ The name means both *sun* and *day* in Kurdish, and the logo joins a traditional
 - **Five languages.** Dates and interface in Sorani, Kurmanji, English, Persian or Arabic, laid out right to left where needed. The other calendars can follow your language, the interface, or their own: Gregorian in English, Persian in Persian, Islamic in Arabic.
 - **Four calendars in every day.** The Kurdish day is large; the Gregorian (on by default), Persian and Islamic days appear as small numbers of the same size, in a row or in the corners.
 - **Written properly.** Sorani ezafe (ی), on for the Kurdish date by default and switchable per calendar. Each calendar keeps the digits of its own language: Persian ۰۱۲, Islamic ٠١٢, Gregorian 012, and the Kurdish date those of your language, unless you choose otherwise. Traditional month names.
-- **On the web too.** [The live calendar](https://0xdolan.github.io/roj/calendar/) runs the same engine in any browser: the popup, every Kurdish day with its history, and a converter.
+- **On the web too.** [The live calendar](https://kanilabs.github.io/roj/calendar/) runs the same engine in any browser: the popup, every Kurdish day with its history, and a converter.
 - **Events.** 43 Kurdish days are included, and you can [add them to Google Calendar or an iPhone](#kurdish-events-in-google-calendar-or-on-an-iphone) too. Add your own JSON events or any `.ics` calendar, local or online, with one-click public holidays for Iraq, Iran, Turkey, Syria and Germany. The top bar shows a dot, a count or the title when today has an event.
 - **Fonts per script.** Manrope for left-to-right text; Vazirmatn, Estedad or Sahel for Arabic-script text; or any installed font or font file.
 - **Your own patterns.** Every strftime token of [tsroj](https://www.npmjs.com/package/@0xdolan/tsroj) and [pyroj](https://pypi.org/project/pyroj/), with presets and live previews.
@@ -56,13 +56,13 @@ Every screenshot comes from a real GNOME Shell 50 session (`make screenshots`), 
 
 ## Guides
 
-The [guide](https://0xdolan.github.io/roj/guide.html) explains everything with screenshots. Quick recipes:
+The [guide](https://kanilabs.github.io/roj/guide.html) explains everything with screenshots. Quick recipes:
 
-- [Show the dates in your language](https://0xdolan.github.io/roj/guide.html#howto-language)
-- [Show the Persian and Islamic days on every card](https://0xdolan.github.io/roj/guide.html#howto-cards)
-- [Add your country's public holidays](https://0xdolan.github.io/roj/guide.html#howto-holidays)
-- [Change what the top bar shows](https://0xdolan.github.io/roj/guide.html#howto-topbar)
-- [Convert a date](https://0xdolan.github.io/roj/guide.html#howto-convert)
+- [Show the dates in your language](https://kanilabs.github.io/roj/guide.html#howto-language)
+- [Show the Persian and Islamic days on every card](https://kanilabs.github.io/roj/guide.html#howto-cards)
+- [Add your country's public holidays](https://kanilabs.github.io/roj/guide.html#howto-holidays)
+- [Change what the top bar shows](https://kanilabs.github.io/roj/guide.html#howto-topbar)
+- [Convert a date](https://kanilabs.github.io/roj/guide.html#howto-convert)
 - [Get the Kurdish days on your phone](#kurdish-events-in-google-calendar-or-on-an-iphone)
 
 ## Install
@@ -73,9 +73,9 @@ The extension needs **GNOME Shell 45 to 50**: Ubuntu 24.04 and newer, Debian 13,
 | --- | --- | --- |
 | [extensions.gnome.org](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/) | Switch it on at [its page](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/), or search for **Roj** in Extension Manager | Automatic |
 | Ubuntu PPA | `sudo add-apt-repository ppa:0xdolan/roj`<br>`sudo apt install gnome-shell-extension-roj roj` | With apt |
-| .deb (Debian, Ubuntu, Kali) | Download both from the [latest release](https://github.com/0xdolan/roj/releases/latest), then<br>`sudo apt install ./gnome-shell-extension-roj_*_all.deb ./roj_*_all.deb` | Manual |
+| .deb (Debian, Ubuntu, Kali) | Download both from the [latest release](https://github.com/kanilabs/roj/releases/latest), then<br>`sudo apt install ./gnome-shell-extension-roj_*_all.deb ./roj_*_all.deb` | Manual |
 | Tarball (any distribution) | `tar xzf roj-*.tar.gz && cd roj-*`<br>`make install` (your user) or `sudo make install-system PREFIX=/usr` | Manual |
-| From source | `git clone https://github.com/0xdolan/roj.git && cd roj && make install` | `git pull && make install` |
+| From source | `git clone https://github.com/kanilabs/roj.git && cd roj && make install` | `git pull && make install` |
 
 On Wayland, log out and back in once after installing so GNOME Shell loads Roj. The `roj` command alone needs only GJS or Node.js: the `roj` .deb, or `node extension/cli/roj.js` from a checkout.
 
@@ -87,8 +87,8 @@ Roj also runs in Chrome, Edge, Firefox and Safari, with the same calendar, setti
 | --- | --- |
 | Chrome, Edge, Brave, Opera | Chrome Web Store: search for **Roj: Kurdish Calendar** |
 | Firefox (desktop and Android) | Firefox Add-ons: search for **Roj: Kurdish Calendar** |
-| Safari on macOS | Download `Roj-Safari-macOS-*.zip` from the [latest release](https://github.com/0xdolan/roj/releases/latest), see [the guide](https://0xdolan.github.io/roj/guide.html#browser) |
-| Any browser, phones too | [The web app](https://0xdolan.github.io/roj/app/): open it and choose **Install the app** to add it to your home screen; it works offline |
+| Safari on macOS | Download `Roj-Safari-macOS-*.zip` from the [latest release](https://github.com/kanilabs/roj/releases/latest), see [the guide](https://kanilabs.github.io/roj/guide.html#browser) |
+| Any browser, phones too | [The web app](https://kanilabs.github.io/roj/app/): open it and choose **Install the app** to add it to your home screen; it works offline |
 
 <img src="docs/images/browser/store-1-popup.png" alt="Roj in the browser toolbar" width="100%">
 
@@ -106,7 +106,7 @@ Every date goes through a Julian Day Number, so any calendar converts to any oth
 | Kurdish | 2726-04-05 · ٥ی پووشپەڕی ٢٧٢٦ · 05 Tîrmeh 2726 |
 | Islamic (tabular) | 1448-01-10 · ١٠ محرم ١٤٤٨ |
 
-The engine is [tsroj](https://github.com/0xdolan/tsroj), copied unchanged into [`extension/lib/tsroj.js`](extension/lib/tsroj.js). It was chosen over pyroj because GNOME Shell runs JavaScript: it works inside the shell, with no Python process per redraw and nothing extra to install. The [guide](https://0xdolan.github.io/roj/guide.html) explains every setting, the patterns, fonts, events and the CLI.
+The engine is [tsroj](https://github.com/kanilabs/tsroj), copied unchanged into [`extension/lib/tsroj.js`](extension/lib/tsroj.js). It was chosen over pyroj because GNOME Shell runs JavaScript: it works inside the shell, with no Python process per redraw and nothing extra to install. The [guide](https://kanilabs.github.io/roj/guide.html) explains every setting, the patterns, fonts, events and the CLI.
 
 ## The roj command
 
@@ -137,17 +137,17 @@ roj ics --locale en > kurdish-events.ics  # events for Google or Apple Calendar
 }
 ```
 
-`calendar` is `kurdish`, `gregorian`, `persian` or `islamic`; leave out `year` for yearly events. Titles can be `ckb`, `kmr`, `en`, `fa` and `ar`. The included events are in [`extension/data/events/kurdish.json`](extension/data/events/kurdish.json); the full reference is in the [guide](https://0xdolan.github.io/roj/guide.html#events).
+`calendar` is `kurdish`, `gregorian`, `persian` or `islamic`; leave out `year` for yearly events. Titles can be `ckb`, `kmr`, `en`, `fa` and `ar`. The included events are in [`extension/data/events/kurdish.json`](extension/data/events/kurdish.json); the full reference is in the [guide](https://kanilabs.github.io/roj/guide.html#events).
 
 ## Kurdish events in Google Calendar or on an iPhone
 
-The 43 included Kurdish events are also published as calendars, so you can see them on any phone or computer. The [live calendar page](https://0xdolan.github.io/roj/calendar/) has one-click buttons, the popup itself and every event with its history:
+The 43 included Kurdish events are also published as calendars, so you can see them on any phone or computer. The [live calendar page](https://kanilabs.github.io/roj/calendar/) has one-click buttons, the popup itself and every event with its history:
 
 | Language | Subscribe (stays up to date) | Download |
 | --- | --- | --- |
-| Sorani | `https://0xdolan.github.io/roj/calendar/kurdish-events-ckb.ics` | [kurdish-events-ckb.ics](docs/calendar/kurdish-events-ckb.ics) |
-| Kurmanji | `https://0xdolan.github.io/roj/calendar/kurdish-events-kmr.ics` | [kurdish-events-kmr.ics](docs/calendar/kurdish-events-kmr.ics) |
-| English | `https://0xdolan.github.io/roj/calendar/kurdish-events-en.ics` | [kurdish-events-en.ics](docs/calendar/kurdish-events-en.ics) |
+| Sorani | `https://kanilabs.github.io/roj/calendar/kurdish-events-ckb.ics` | [kurdish-events-ckb.ics](docs/calendar/kurdish-events-ckb.ics) |
+| Kurmanji | `https://kanilabs.github.io/roj/calendar/kurdish-events-kmr.ics` | [kurdish-events-kmr.ics](docs/calendar/kurdish-events-kmr.ics) |
+| English | `https://kanilabs.github.io/roj/calendar/kurdish-events-en.ics` | [kurdish-events-en.ics](docs/calendar/kurdish-events-en.ics) |
 
 - **Google Calendar**: on a computer, open [Settings, Add calendar, From URL](https://calendar.google.com/calendar/r/settings/addbyurl), paste a link and choose **Add calendar**. It then shows on your phone too.
 - **iPhone and iPad**: open **Settings, Apps, Calendar, Calendar Accounts, Add Account, Other, Add Subscribed Calendar**, paste a link and tap **Next**, then **Save**.
@@ -196,7 +196,7 @@ The tag builds and publishes everything: the GitHub release with the extension z
 
 ## Credits
 
-- Calendar engine: [tsroj](https://github.com/0xdolan/tsroj), also available for Python as [pyroj](https://pypi.org/project/pyroj/).
+- Calendar engine: [tsroj](https://github.com/kanilabs/tsroj), also available for Python as [pyroj](https://pypi.org/project/pyroj/).
 - Fonts under the SIL Open Font License 1.1: [Manrope](https://github.com/sharanda/manrope), [Vazirmatn](https://github.com/rastikerdar/vazirmatn), [Estedad](https://github.com/aminabedi68/Estedad), [Sahel](https://github.com/rastikerdar/sahel-font).
 - Story sources and image credits: [docs/STORY.md](docs/STORY.md).
 

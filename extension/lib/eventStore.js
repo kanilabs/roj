@@ -42,7 +42,7 @@ function fileAgeHours(path) {
 /** Download `url` (http/https/webcal) with libsoup 3 and return its text. */
 export async function fetchText(url, cancellable) {
     const {default: Soup} = await import('gi://Soup?version=3.0');
-    const session = new Soup.Session({timeout: 30, user_agent: 'roj (https://github.com/0xdolan/roj)'});
+    const session = new Soup.Session({timeout: 30, user_agent: 'roj (https://github.com/kanilabs/roj)'});
     const message = Soup.Message.new('GET', url.replace(/^webcal:/i, 'https:'));
     if (!message)
         throw new Error(`Invalid URL: ${url}`);

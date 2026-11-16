@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:بۆنە کوردییەکان
 X-WR-CALNAME:بۆنە کوردییەکان
-X-WR-CALDESC:بۆنە کوردییەکان from Roj\, https://0xdolan.githu
- b.io/roj/. Eid dates follow the arithmetic Hijri calendar and can differ b
- y a day or two from the sighting of the moon.
+X-WR-CALDESC:بۆنە کوردییەکان from Roj\, https://kanilabs.gith
+ ub.io/roj/. Eid dates follow the arithmetic Hijri calendar and can differ 
+ by a day or two from the sighting of the moon.
 REFRESH-INTERVAL;VALUE=DURATION:P1W
 X-PUBLISHED-TTL:P1W
 BEGIN:VEVENT

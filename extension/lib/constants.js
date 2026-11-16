@@ -7,8 +7,8 @@ export const VERSION = '0.3.0';
 export const TSROJ_VERSION = '1.0.6';
 
 export const AUTHOR = '0xdolan';
-export const REPO_URL = 'https://github.com/0xdolan/roj';
-export const SITE_URL = 'https://0xdolan.github.io/roj/';
+export const REPO_URL = 'https://github.com/kanilabs/roj';
+export const SITE_URL = 'https://kanilabs.github.io/roj/';
 export const DOCS_URL = `${SITE_URL}guide.html`;
 export const EGO_URL = 'https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/';
 export const ISSUES_URL = `${REPO_URL}/issues`;
