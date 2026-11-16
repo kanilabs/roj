@@ -7,7 +7,7 @@ cli="${1:?path to cli/roj.js}"
 out="${2:?output file}"
 cat > "$out" <<SH
 #!/bin/sh
-# Launcher for roj, the Kurdish calendar CLI. https://github.com/0xdolan/roj
+# Launcher for roj, the Kurdish calendar CLI. https://github.com/kanilabs/roj
 ROJ_CLI='$cli'
 if command -v gjs >/dev/null 2>&1; then exec gjs -m "\$ROJ_CLI" "\$@"; fi
 if command -v node >/dev/null 2>&1; then exec node "\$ROJ_CLI" "\$@"; fi

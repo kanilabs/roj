@@ -1,7 +1,7 @@
 {
   "uuid": "roj@0xdolan.github.io",
   "name": "Roj Kurdish Calendar",
-  "description": "The Kurdish solar calendar in your top bar. Roj means both sun and day in Kurdish.\n\nClick the date for a full calendar: every day shows the Kurdish day, with the Gregorian, Persian and Islamic days beside it, and the selected day's events.\n\n• Sorani, Kurmanji, English, Persian and Arabic, right to left where needed\n• Each calendar in its own digits: Persian ۰۱۲, Islamic ٠١٢, Gregorian 012\n• Sorani ezafe (ی) and traditional month names\n• 43 Kurdish days included, from Newroz to Halabja; add your own JSON events or any .ics calendar, such as your country's public holidays\n• A dot, count or title in the top bar when today has an event, red on holidays\n• Separate fonts for Latin and Arabic-script text: Manrope, Vazirmatn, Estedad, Sahel or your own\n• Any strftime pattern for the top bar and popup, with live previews\n• Date converter, built-in guide, light, dark and system themes, settings backup\n• The roj command for the terminal\n\nGuide with screenshots: https://0xdolan.github.io/roj/guide.html\nLive calendar in your browser: https://0xdolan.github.io/roj/calendar/",
+  "description": "The Kurdish solar calendar in your top bar. Roj means both sun and day in Kurdish.\n\nClick the date for a full calendar: every day shows the Kurdish day, with the Gregorian, Persian and Islamic days beside it, and the selected day's events.\n\n• Sorani, Kurmanji, English, Persian and Arabic, right to left where needed\n• Each calendar in its own digits: Persian ۰۱۲, Islamic ٠١٢, Gregorian 012\n• Sorani ezafe (ی) and traditional month names\n• 43 Kurdish days included, from Newroz to Halabja; add your own JSON events or any .ics calendar, such as your country's public holidays\n• A dot, count or title in the top bar when today has an event, red on holidays\n• Separate fonts for Latin and Arabic-script text: Manrope, Vazirmatn, Estedad, Sahel or your own\n• Any strftime pattern for the top bar and popup, with live previews\n• Date converter, built-in guide, light, dark and system themes, settings backup\n• The roj command for the terminal\n\nGuide with screenshots: https://kanilabs.github.io/roj/guide.html\nLive calendar in your browser: https://kanilabs.github.io/roj/calendar/",
   "shell-version": [
     "45",
     "46",
@@ -10,7 +10,7 @@
     "49",
     "50"
   ],
-  "url": "https://github.com/0xdolan/roj",
+  "url": "https://github.com/kanilabs/roj",
   "settings-schema": "org.gnome.shell.extensions.roj",
   "gettext-domain": "roj",
   "version-name": "0.3.0"

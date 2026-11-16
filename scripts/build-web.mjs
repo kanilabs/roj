@@ -57,7 +57,7 @@ const engine = new RojEngine();
 for (const lang of LANGS) {
     const title = localizedText(name, lang);
     write(join(OUT, `kurdish-events-${lang}.ics`), `${buildIcs(events, {
-        engine, lang, name: title, description: `${title} from Roj, https://0xdolan.github.io/roj/. ${EID_NOTE}`,
+        engine, lang, name: title, description: `${title} from Roj, https://kanilabs.github.io/roj/. ${EID_NOTE}`,
         fromYear: FROM_YEAR, toYear: TO_YEAR, stamp: STAMP,
     })}\r\n`);
 }

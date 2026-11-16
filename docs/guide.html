@@ -21,7 +21,7 @@
       <a href="./#install">Install</a>
       <a href="guide.html" aria-current="page">Guide</a>
       <a href="story.html" class="hide-sm">Story</a>
-      <a href="https://github.com/0xdolan/roj">GitHub</a>
+      <a href="https://github.com/kanilabs/roj">GitHub</a>
       <button class="theme-toggle" type="button" data-theme-toggle>Theme: system</button>
     </nav>
   </div>
@@ -360,18 +360,18 @@
     <table>
       <thead><tr><th>Language</th><th>Link to subscribe</th><th>File</th></tr></thead>
       <tbody>
-        <tr><td>Sorani</td><td><code>https://0xdolan.github.io/roj/calendar/kurdish-events-ckb.ics</code></td><td><a href="calendar/kurdish-events-ckb.ics" download>Download</a></td></tr>
-        <tr><td>Kurmanji</td><td><code>https://0xdolan.github.io/roj/calendar/kurdish-events-kmr.ics</code></td><td><a href="calendar/kurdish-events-kmr.ics" download>Download</a></td></tr>
-        <tr><td>English</td><td><code>https://0xdolan.github.io/roj/calendar/kurdish-events-en.ics</code></td><td><a href="calendar/kurdish-events-en.ics" download>Download</a></td></tr>
+        <tr><td>Sorani</td><td><code>https://kanilabs.github.io/roj/calendar/kurdish-events-ckb.ics</code></td><td><a href="calendar/kurdish-events-ckb.ics" download>Download</a></td></tr>
+        <tr><td>Kurmanji</td><td><code>https://kanilabs.github.io/roj/calendar/kurdish-events-kmr.ics</code></td><td><a href="calendar/kurdish-events-kmr.ics" download>Download</a></td></tr>
+        <tr><td>English</td><td><code>https://kanilabs.github.io/roj/calendar/kurdish-events-en.ics</code></td><td><a href="calendar/kurdish-events-en.ics" download>Download</a></td></tr>
       </tbody>
     </table>
     <ul>
       <li><b>Google Calendar</b>: on a computer, open <a href="https://calendar.google.com/calendar/r/settings/addbyurl">Settings, Add calendar, From URL</a>, paste a link and choose <b>Add calendar</b>. It then shows on your phone too. To import a file once, use <b>Settings, Import and export</b>.</li>
-      <li><b>iPhone and iPad</b>: <b>Settings, Apps, Calendar, Calendar Accounts, Add Account, Other, Add Subscribed Calendar</b>, paste a link, tap <b>Next</b>, then <b>Save</b>. Or tap <a href="webcal://0xdolan.github.io/roj/calendar/kurdish-events-ckb.ics">Sorani</a>, <a href="webcal://0xdolan.github.io/roj/calendar/kurdish-events-kmr.ics">Kurmanji</a> or <a href="webcal://0xdolan.github.io/roj/calendar/kurdish-events-en.ics">English</a> on the phone.</li>
+      <li><b>iPhone and iPad</b>: <b>Settings, Apps, Calendar, Calendar Accounts, Add Account, Other, Add Subscribed Calendar</b>, paste a link, tap <b>Next</b>, then <b>Save</b>. Or tap <a href="webcal://kanilabs.github.io/roj/calendar/kurdish-events-ckb.ics">Sorani</a>, <a href="webcal://kanilabs.github.io/roj/calendar/kurdish-events-kmr.ics">Kurmanji</a> or <a href="webcal://kanilabs.github.io/roj/calendar/kurdish-events-en.ics">English</a> on the phone.</li>
       <li><b>Mac</b>: in Calendar, <b>File, New Calendar Subscription</b>, then paste a link.</li>
       <li><b>Outlook</b>: <b>Add calendar, Subscribe from web</b>, then paste a link.</li>
     </ul>
-    <p>Gregorian events repeat every year. Newroz and the two Eids follow other calendars, so they are listed for each year from 2020 to 2060. Eid dates use the arithmetic Hijri calendar and can differ by a day or two from the sighting of the moon. The files are also attached to every <a href="https://github.com/0xdolan/roj/releases/latest">release</a>, and <code>roj ics</code> writes the same file, plus your own events, with your Islamic day adjustment.</p>
+    <p>Gregorian events repeat every year. Newroz and the two Eids follow other calendars, so they are listed for each year from 2020 to 2060. Eid dates use the arithmetic Hijri calendar and can differ by a day or two from the sighting of the moon. The files are also attached to every <a href="https://github.com/kanilabs/roj/releases/latest">release</a>, and <code>roj ics</code> writes the same file, plus your own events, with your Islamic day adjustment.</p>
 
     <h2 id="converter">Converter</h2>
     <div class="pair">
@@ -388,7 +388,7 @@
     </div>
 
     <h2 id="cli">Command line</h2>
-    <p><code>roj</code> gives the same answers in a terminal with the same engine, and, when run with <code>gjs</code>, your extension settings. <code>make install</code>, the .deb packages, the PPA and the tarball all install it, and with those the settings window can add it too, under <b>About, Command-line tool</b>. The extensions.gnome.org download leaves it out, as that site asks: install the <code>roj</code> package from the PPA or the .deb on the <a href="https://github.com/0xdolan/roj/releases/latest">latest release</a>, or run <code>node extension/cli/roj.js</code> from a checkout. It also runs with Node.js, so it works without GNOME, for example on Kali with Xfce. <code>man roj</code> has the full reference.</p>
+    <p><code>roj</code> gives the same answers in a terminal with the same engine, and, when run with <code>gjs</code>, your extension settings. <code>make install</code>, the .deb packages, the PPA and the tarball all install it, and with those the settings window can add it too, under <b>About, Command-line tool</b>. The extensions.gnome.org download leaves it out, as that site asks: install the <code>roj</code> package from the PPA or the .deb on the <a href="https://github.com/kanilabs/roj/releases/latest">latest release</a>, or run <code>node extension/cli/roj.js</code> from a checkout. It also runs with Node.js, so it works without GNOME, for example on Kali with Xfce. <code>man roj</code> has the full reference.</p>
     <figure><img src="images/marketing/cli.png" alt="roj in a terminal" loading="lazy"></figure>
 <pre><code>roj                                    # today in all four calendars
 roj cal                                # this Kurdish month
@@ -426,7 +426,7 @@ roj convert 2026-10-25 --json          # machine-readable output</code></pre>
     <ul>
       <li><b>Chrome, Edge, Brave, Opera</b>: install <b>Roj: Kurdish Calendar</b> from the Chrome Web Store, then pin it with the puzzle-piece button so it stays on the toolbar.</li>
       <li><b>Firefox</b> on the desktop and on Android: install <b>Roj: Kurdish Calendar</b> from Firefox Add-ons.</li>
-      <li><b>Safari on macOS</b> (13 or newer, Safari 16.4 or newer): Roj is not in the App Store. Download <code>Roj-Safari-macOS-*.zip</code> from the <a href="https://github.com/0xdolan/roj/releases/latest">latest release</a> and follow the steps below.</li>
+      <li><b>Safari on macOS</b> (13 or newer, Safari 16.4 or newer): Roj is not in the App Store. Download <code>Roj-Safari-macOS-*.zip</code> from the <a href="https://github.com/kanilabs/roj/releases/latest">latest release</a> and follow the steps below.</li>
       <li><b>Any browser, phones too</b>: open <a href="app/">the web app</a> and choose <b>Install the app</b> (on an iPhone or iPad: Share, then <b>Add to Home Screen</b>). It works offline.</li>
     </ul>
     <h3 id="browser-safari">Safari</h3>
@@ -456,14 +456,14 @@ roj convert 2026-10-25 --json          # machine-readable output</code></pre>
     <h3>An online calendar shows an error</h3>
     <p>Roj keeps the last good copy and tries again at the next refresh. Use the refresh button on the Events page to retry now, and check that the link opens in a browser.</p>
     <h3>Report a problem</h3>
-    <p>Open an issue on <a href="https://github.com/0xdolan/roj/issues">GitHub</a> with your GNOME Shell version and, if it helps, a settings export.</p>
+    <p>Open an issue on <a href="https://github.com/kanilabs/roj/issues">GitHub</a> with your GNOME Shell version and, if it helps, a settings export.</p>
   </article>
 </div>
 
 <footer>
   <div class="wrap">
     <span>Made with <span class="heart">♥</span> by <a href="https://github.com/0xdolan">0xdolan</a></span> ·
-    <a href="https://github.com/0xdolan/roj">Source</a> ·
+    <a href="https://github.com/kanilabs/roj">Source</a> ·
     <a href="guide.html">Docs</a> ·
     <a href="./">Site</a> ·
     <a href="story.html">Story</a>

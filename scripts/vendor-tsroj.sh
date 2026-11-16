@@ -10,7 +10,7 @@ trap 'command rm -rf "$TMP"' EXIT
 VERSION="$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["version"])' "$TMP/package/package.json")"
 {
     echo '// SPDX-License-Identifier: GPL-3.0-only'
-    echo "// Vendored from @0xdolan/tsroj v$VERSION (dist/index.mjs): https://github.com/0xdolan/tsroj"
+    echo "// Vendored from @0xdolan/tsroj v$VERSION (dist/index.mjs): https://github.com/kanilabs/tsroj"
     echo '// Do not edit by hand: run `make vendor` to refresh.'
     echo
     cat "$TMP/package/dist/index.mjs"

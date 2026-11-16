@@ -8,7 +8,7 @@ import {EventIndex, parseEventsJson} from './engine/lib/events.js';
 import {N_, localizedText, translator} from './engine/lib/i18n.js';
 import {AUTHOR, AUTHOR_URL, DOCS_URL, REPO_URL, SITE_URL, VERSION} from './engine/lib/constants.js';
 
-const ICS_BASE = 'https://0xdolan.github.io/roj/calendar/kurdish-events';
+const ICS_BASE = 'https://kanilabs.github.io/roj/calendar/kurdish-events';
 const CALENDAR_NAMES = {kurdish: N_('Kurdish'), gregorian: N_('Gregorian'), persian: N_('Persian'), islamic: N_('Islamic')};
 const HEADER_FORMATS = {kurdish: '%A %d %B %Y', gregorian: '%A %d %B %Y', persian: '%d %B %Y', islamic: '%d %B %Y'};
 const WEEKEND = new Set([5]);

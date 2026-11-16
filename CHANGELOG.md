@@ -12,7 +12,7 @@ a release is described in [RELEASING.md](RELEASING.md).
 ### Added
 
 - Roj for the browser: an extension for Chrome, Edge, Firefox and Safari with the same popup, settings pages, events, online calendars, fonts and converter as on GNOME. The toolbar button shows today's Kurdish day and marks days with events. Settings backups move between GNOME and the browser.
-- [The Roj web app](https://0xdolan.github.io/roj/app/), which installs on phones and desktops and works offline.
+- [The Roj web app](https://kanilabs.github.io/roj/app/), which installs on phones and desktops and works offline.
 - A favicon and home-screen icon for the website.
 
 ### Fixed
@@ -37,7 +37,7 @@ a release is described in [RELEASING.md](RELEASING.md).
 
 ## [0.2.0] - 2026-10-26
 
-The first published release. It also contains everything listed under [0.1.0](https://github.com/0xdolan/roj/blob/main/CHANGELOG.md#010---2026-10-26) in the changelog.
+The first published release. It also contains everything listed under [0.1.0](https://github.com/kanilabs/roj/blob/main/CHANGELOG.md#010---2026-10-26) in the changelog.
 
 ### Added
 
@@ -45,7 +45,7 @@ The first published release. It also contains everything listed under [0.1.0](ht
 - The Kurdish events as calendars for Google Calendar, iPhone and Mac, in Sorani, Kurmanji and English, to subscribe to or import. They are on the website and attached to every release.
 - `roj ics` prints your events as an .ics file.
 - How-to guides with screenshots: showing the dates in your language, the Persian and Islamic days on the cards, your country's holidays, the top bar and converting a date.
-- A live calendar on the website, <https://0xdolan.github.io/roj/calendar/>: the popup running the same engine in any browser, in all five languages, with every Kurdish day and its history, one-click calendar subscriptions and a converter.
+- A live calendar on the website, <https://kanilabs.github.io/roj/calendar/>: the popup running the same engine in any browser, in all five languages, with every Kurdish day and its history, one-click calendar subscriptions and a converter.
 
 ### Changed
 
@@ -77,9 +77,9 @@ The first version. It was never tagged or published on its own; it ships as part
 - Packages: extensions.gnome.org bundle, `roj` and `gnome-shell-extension-roj` .deb packages, a source tarball and checksums.
 - Engine: tsroj 1.0.6.
 
-[Unreleased]: https://github.com/0xdolan/roj/compare/v0.3.0...HEAD
-[0.3.0]: https://github.com/0xdolan/roj/compare/v0.2.2...v0.3.0
-[0.2.2]: https://github.com/0xdolan/roj/compare/v0.2.1...v0.2.2
-[0.2.1]: https://github.com/0xdolan/roj/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/0xdolan/roj/releases/tag/v0.2.0
-[0.1.0]: https://github.com/0xdolan/roj/tree/4fe8b47
+[Unreleased]: https://github.com/kanilabs/roj/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/kanilabs/roj/compare/v0.2.2...v0.3.0
+[0.2.2]: https://github.com/kanilabs/roj/compare/v0.2.1...v0.2.2
+[0.2.1]: https://github.com/kanilabs/roj/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/kanilabs/roj/releases/tag/v0.2.0
+[0.1.0]: https://github.com/kanilabs/roj/tree/4fe8b47

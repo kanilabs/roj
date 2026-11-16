@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 NAME:Kurdish events
 X-WR-CALNAME:Kurdish events
-X-WR-CALDESC:Kurdish events from Roj\, https://0xdolan.github.io/roj/. Eid 
- dates follow the arithmetic Hijri calendar and can differ by a day or two 
- from the sighting of the moon.
+X-WR-CALDESC:Kurdish events from Roj\, https://kanilabs.github.io/roj/. Eid
+  dates follow the arithmetic Hijri calendar and can differ by a day or two
+  from the sighting of the moon.
 REFRESH-INTERVAL;VALUE=DURATION:P1W
 X-PUBLISHED-TTL:P1W
 BEGIN:VEVENT

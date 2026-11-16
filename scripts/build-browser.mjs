@@ -225,7 +225,7 @@ function manifest(target) {
         short_name: 'Roj',
         version: VERSION,
         description: DESCRIPTION,
-        homepage_url: 'https://0xdolan.github.io/roj/',
+        homepage_url: 'https://kanilabs.github.io/roj/',
         icons: {16: 'icons/roj-16.png', 32: 'icons/roj-32.png', 48: 'icons/roj-48.png', 96: 'icons/roj-96.png', 128: 'icons/roj-128.png'},
         action: {
             default_title: 'Roj',
