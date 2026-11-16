@@ -8,7 +8,7 @@
 ڕۆژ · Roj · *sun* and *day* in Kurdish
 
 [![CI](https://github.com/kanilabs/roj/actions/workflows/ci.yml/badge.svg)](https://github.com/kanilabs/roj/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/0xdolan/roj)](https://github.com/kanilabs/roj/releases/latest)
+[![Release](https://img.shields.io/github/v/release/kanilabs/roj)](https://github.com/kanilabs/roj/releases/latest)
 [![GNOME Extensions](https://img.shields.io/badge/GNOME%20Extensions-Roj-4a86cf?logo=gnome&logoColor=white)](https://extensions.gnome.org/extension/11501/roj-kurdish-calendar/)
 [![GNOME Shell 45 to 50](https://img.shields.io/badge/GNOME%20Shell-45%20to%2050-4a86cf)](#install)
 [![License: GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
